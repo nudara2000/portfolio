@@ -81,7 +81,7 @@ const Container = styled.div`
         margin-top: 3rem;
         cursor: pointer;
         border-radius: 0.3rem;
-        background-color: #01be96;
+        background-color: #4db5ff;
         border: none;
         color: #fff;
         font-weight: 100;

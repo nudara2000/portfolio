@@ -10,33 +10,28 @@ import Central from '../../assets/central.png';
 
 let clients = [
     {
-        name : "Ananda College Colombo 10",
-        date : "2017-2020",
-        img_url :Ananda,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
-    {
         name : "University Of Moratuwa",
         date : "2021-present",
         img_url :University,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `University of Moratuwa BSc(Hons) in Information Technology| Expected 2025.`
+    },
+    {
+        name : "Ananda College Colombo 10",
+        date : "2017-2020",
+        img_url :Ananda,
+        disc : `G.C.E Advanced Level (2019) Technology Stream
+                  3A’s,
+                  Z-score: 2.6269,
+                  District Rank: 13.`
+
     },
     {
         name : "Central College Piliyandala",
         date : "2006-2016",
         img_url :Central,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `G.C.E Ordinary Level (2016) 8A’s and 1C, 149 scores in G.C.E Grade 5 Scholarship Exam`
     },
-    {
-        name : "unknown",
-        date : "",
-        img_url : "",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
+   
 ]
 var settings = {
     dots: true,
@@ -148,7 +143,7 @@ const Container = styled.div`
     }
     
     .slick-dots li.slick-active button{
-        background: #01be96;
+        background: #4db5ff;
         width: 15px;
     }
 
@@ -170,7 +165,7 @@ const Buttons = styled.div`
         background-color: transparent;
         margin-left: 0.5rem;
         border: none;
-        color: #01be96;
+        color: #4db5ff;
         cursor: pointer;
         font-size: 1.1rem;
     }

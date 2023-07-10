@@ -120,11 +120,11 @@ const Container = styled.div`
 
 const Buttons = styled.div`
   button {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     background-color: rgba(255, 255, 255, 0.1);
     cursor: pointer;
-    color: #01be96;
+    color: #4db5ff;
     border: none;
     position: absolute;
     top: 45%;

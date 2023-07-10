@@ -7,8 +7,28 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+
 
 const Footer = () => {
+
+  const form =useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    const formElement = document.getElementById("contactForm");
+  
+    emailjs.sendForm('service_nxchzeq', 'template_8ouezyi', formElement, 'S9BehyKsLWSNztaaS')
+      .then((result) => {
+        console.log(result.text);
+        formElement.reset();
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
+
   const scrollUp = () => {
     window.scroll({
       top: 0,
@@ -38,7 +58,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:0772975936">+94 77 297 5936</a>
+            <a href="https://api.whatsapp.com/send?phone=+94772975936" target="_blank">+94 77 297 5936</a>
             </Slide>
           </div>
           <div>
@@ -48,7 +68,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="nudaradilaksha2000@gmail.com">nudaradilaksha2000@gmail.com</a>
+              <a href="mailto:nudaradilaksha2000@gmail.com" target="_blank">nudaradilaksha2000@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -95,26 +115,26 @@ const Footer = () => {
       </Profile>
       <Form>
         <Slide direction="right">
-          <form>
-            <div className="name">
-              <span>
-                <CgProfile />
-              </span>
-              <input type="text" placeholder="Fullname..." />
-            </div>
-            <div className="email">
-              <span>
-                <MdAlternateEmail />
-              </span>
-              <input type="email" placeholder="Email..." />
-            </div>
-            <div className="message">
-              <span className="messageIcon">
-                <FiMail />
-              </span>
-              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
-            </div>
-            <button>Submit</button>
+          <form ref={form} id="contactForm" onSubmit={sendEmail}>
+          <div className="name">
+  <span>
+    <CgProfile />
+  </span>
+  <input type="name" name="name" placeholder="Your Fullname" />
+</div>
+<div className="email">
+  <span>
+    <MdAlternateEmail />
+  </span>
+  <input type="email" name="email" placeholder="Your Email" />
+</div>
+<div className="message">
+  <span className="messageIcon">
+    <FiMail />
+  </span>
+  <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+</div>
+            <button type='submit'>Submit</button>
           </form>
         </Slide>
       </Form>
@@ -238,12 +258,13 @@ const Form = styled.div`
   form {
     background-color: #191923;
     padding: 0.8rem;
-    border-radius: 5px;
+    border-radius: 10px;
     .name,
     .email,
     .message {
       display: flex;
       border: 1px solid gray;
+      border-radius: 10px;
       margin-bottom: 0.5rem;
       input,
       textarea {
@@ -257,6 +278,7 @@ const Form = styled.div`
       span {
         background-color: #3e3e3e;
         width: 3rem;
+        border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -270,7 +292,7 @@ const Form = styled.div`
     button {
       width: 5rem;
       height: 1.8rem;
-      background-color: #01be96;
+      background-color: #4db5ff;
       border: none;
       border-radius: 5px;
       filter: drop-shadow(0px 4px 5px #01be9551);

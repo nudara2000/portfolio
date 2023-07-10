@@ -13,7 +13,7 @@ import { Slide } from "react-awesome-reveal";
 
 const Services = () => {
   return (
-    <Container id="service">
+    <Container id="skills">
       <Slide direction="down">
         <h4>
           My <span className="green">Skills</span>

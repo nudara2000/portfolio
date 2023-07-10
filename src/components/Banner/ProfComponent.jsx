@@ -105,11 +105,11 @@ const Texts = styled.div`
     margin-right: 2rem;
     border-radius: 0.3rem;
     cursor: pointer;
-    background-color: #01be96;
+    background-color:#4db5ff ;
     border: none;
     color: #fff;
     font-weight: 500;
-    filter: drop-shadow(0px 10px 10px #01be9551);
+    filter: drop-shadow(0px 1px 2px #4db5ff);
     :hover {
       filter: drop-shadow(0px 10px 10px #01be9570);
     }
@@ -136,7 +136,7 @@ const Social = styled.div`
       width: 2.3rem;
       height: 2rem;
       clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      background-color: #01be96;
+      background-color: #4db5ff;
       position: relative;
       transition: transform 400ms ease-in-out;
       :hover {
@@ -156,7 +156,7 @@ const Social = styled.div`
 const Profile = styled.div`
   img {
     width: 20rem;
-    filter: drop-shadow(0px 10px 10px #01be9570);
+    filter: drop-shadow(0px 5px 5px #4db5ff);
     transition: transform 400ms ease-in-out;
     border-radius: 50%;
     @media (max-width: 790px) {

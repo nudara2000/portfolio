@@ -1,6 +1,6 @@
 Hello I'am
-Milad Amiri
-UX/UI Designer And Graphic Designer
+Udara Dilaksha
+Fullstack developer
 
 ## colors
 green : #01be96
