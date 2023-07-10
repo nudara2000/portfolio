@@ -58,7 +58,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-            <a href="https://api.whatsapp.com/send?phone=+94772975936" target="_blank">+94 77 297 5936</a>
+            <a href="https://api.whatsapp.com/send?phone=+94772975936"  rel="noreferrer" target="_blank">+94 77 297 5936</a>
             </Slide>
           </div>
           <div>
@@ -68,7 +68,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:nudaradilaksha2000@gmail.com" target="_blank">nudaradilaksha2000@gmail.com</a>
+              <a href="mailto:nudaradilaksha2000@gmail.com"  rel="noreferrer" target="_blank">nudaradilaksha2000@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -234,7 +234,7 @@ const Profile = styled.div`
 const ArrowUp = styled.div`
   width: 2rem;
   height: 2rem;
-  background-color: #01be96;
+  background-color: #4db5ff;
   display: flex;
   align-items: center;
   justify-content: center;

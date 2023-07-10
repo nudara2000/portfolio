@@ -17,7 +17,7 @@ let data = [
     },
     {
         img :Admin,
-        disc : "Admin Dashboard for an online laundry portal",
+        disc : "Fullstack admin Dashboard for an online laundry portal",
         git :"https://github.com/RuntimeTerrorOG/onlinedeliveryportal-frontend/tree/udara_dilaksha_feature_admin"
     },
     {

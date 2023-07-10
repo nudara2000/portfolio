@@ -30,15 +30,15 @@ const Services = () => {
                    Front end development is more fun.`}
           />
         </Slide>
-        <Slide direction="up">
+        <Slide direction="down">
           <Card
             Icon={SiSpringboot}
             title={"Backend Designning"}
             disc={`I'm good at Node.js environment and have used it to develop multiple backend applications.
-            I have used Spring Boot for developments.`}
+            I have used Spring Boot for developments which uses Java Programming.`}
           />
         </Slide>
-        <Slide direction="right">
+        <Slide direction="down">
           <Card
             Icon={FiFigma}
             title={"web designning"}
@@ -47,7 +47,7 @@ const Services = () => {
             with additional offline features.`}
           />
         </Slide>
-        <Slide direction="right34343">
+        <Slide direction="right">
           <Card
             Icon={SiMysql}
             title={"DataBase"}
@@ -60,36 +60,34 @@ const Services = () => {
         <Slide direction="left">
           <Card
             Icon={DiPhotoshop}
-            title={"Art Designning"}
-            disc={` My favorite database is MySQL. 
-             As it is an open-source relational database management system
-             which is very flexible and easy to use.
-             I have also used MSSQL as well`}
+            title={"2D Image Designning"}
+            disc={`I used to work with adobe Photoshop and adobe Illustrator.
+            When ever I get free time I do edit some images and create some attractive designs.`}
           />
         </Slide>
         <Slide direction="up">
           <Card
             Icon={SiBlender}
-            title={"Blender"}
+            title={"3D graphic applications"}
             disc={` Blender is a free and open-source 3D computer 
-            graphics software tool set used for creating animated films, visual effects, 
-            art, 3D-printed models, motion graphics, interactive 3D applications.`}
+            graphics software tool that I used for creating animated content and
+             Interactive 3D applications.`}
           />
         </Slide>
-        <Slide direction="right">
+        <Slide direction="up">
           <Card
             Icon={FaAws}
             title={"Cloud / Hosting"}
-            disc={`Amazon Web Services, Inc. is a subsidiary of Amazon that 
-            provides on-demand cloud computing platforms`}
+            disc={`Amazon Web Services provides on-demand cloud computing platforms,
+                   I Workedon a project which is hosting through AWS.`}
           />
         </Slide>
         <Slide direction="right">
           <Card
             Icon={FaMicrochip}
             title={"Microchip Technology"}
-            disc={`Amazon Web Services, Inc. is a subsidiary of Amazon that 
-            provides on-demand cloud computing platforms`}
+            disc={`I specifically used microchip technology in a hardware project.
+            apart from that I also familiar with the arduino technology as well`}
           />
         </Slide>
       </Cards>
