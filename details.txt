@@ -1,9 +1,7 @@
-Hello I'am
+Hello I'm
 Udara Dilaksha
 Fullstack developer
 
-## colors
-green : #01be96
 
 name font family 
-font-family: 'Secular One', sans-serif;
+font-family: 'Poppins', 'sans-serif';

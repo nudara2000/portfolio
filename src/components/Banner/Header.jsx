@@ -1,14 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import styled from 'styled-components';
 
-
+ 
 const Header = () => {
     const [bar, setBar] = useState(false);
   return (
     <Container bar={bar}>
-        <Logo>
-            <h1></h1>
-        </Logo>
         <Nav bar={bar}>
             <span><a href="#home">Home</a></span>
             <span><a href="#skills">Skills</a></span>
@@ -80,19 +77,7 @@ const Container = styled.div`
         }
     }
 `
-const Logo = styled.div`
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    span{
-        font-size: 1.8rem;
-    }
 
-    h1{
-        font-weight: 600;
-        font-size: 2rem;
-    }
-`
 const Nav = styled.div`
     @media(max-width:640px){
         position: fixed;
