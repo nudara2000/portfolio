@@ -8,6 +8,9 @@ import Admin from '../../assets/admin.jpg';
 import Calculator from '../../assets/calculator.jpg';
 import Portpolio from '../../assets/portpolio.jpg';
 import Student from '../../assets/Student.jpg';
+import Quiz from'../../assets/quiz.jpg';
+import Hardware from'../../assets/hardware.jpg';
+
 
 let data = [
     {
@@ -36,7 +39,18 @@ let data = [
         git:"https://github.com/nudara2000/Student_System_Front-End",
 
     },
-  
+    {
+      img : Quiz,
+      disc : "Multiple answer selection Quiz app developed using React native",
+      git:"https://github.com/nudara2000/React_native_Quiz-app",
+
+  },
+  {
+    img : Hardware,
+    disc : "Automated Fruit sorting and cutting and weighting machine",
+    git:"https://github.com/nudara2000/Student_System_Front-End",
+
+},
 ];
 
 
