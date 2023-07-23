@@ -8,7 +8,7 @@ import Admin from '../../assets/admin.jpg';
 import Calculator from '../../assets/calculator.jpg';
 import Portpolio from '../../assets/portpolio.jpg';
 import Student from '../../assets/Student.jpg';
-import Quiz from'../../assets/quiz.jpg';
+import Quiz from'../../assets/quize.jpg';
 import Hardware from'../../assets/hardware.jpg';
 
 
