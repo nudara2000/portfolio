@@ -48,7 +48,7 @@ let data = [
   {
     img : Hardware,
     disc : "Automated Fruit sorting and cutting and weighting machine",
-    git:"https://github.com/nudara2000/Student_System_Front-End",
+    git:"https://github.com/nudara2000/Automated_Fruit_Sorting_Machine",
 
 },
 ];
