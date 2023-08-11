@@ -10,6 +10,7 @@ import Portpolio from '../../assets/portpolio.jpg';
 import Student from '../../assets/Student.jpg';
 import Quiz from'../../assets/quize.jpg';
 import Hardware from'../../assets/hardware.jpg';
+import Laundry from'../../assets/laundry.jpg';
 
 
 let data = [
@@ -49,6 +50,12 @@ let data = [
     img : Hardware,
     disc : "Automated Fruit sorting and cutting and weighting machine",
     git:"https://github.com/nudara2000/Automated_Fruit_Sorting_Machine",
+
+},
+{
+  img : Laundry,
+  disc : "A mobile application to manage Laundry ordering online",
+  git:"https://github.com/nudara2000/Laundry_app",
 
 },
 ];
