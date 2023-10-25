@@ -29,7 +29,7 @@ let clients = [
         name : "Central College Piliyandala",
         date : "2006-2016",
         img_url :Central,
-        disc : `G.C.E Ordinary Level (2016) 8A’s and 1C, 149 scores in G.C.E Grade 5 Scholarship Exam`
+        disc : `G.C.E Ordinary Level (2016) 8A’s and 1C`
     },
    
 ]
